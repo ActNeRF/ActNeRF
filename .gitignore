@@ -28,6 +28,8 @@ nerf-pytorch/nerf-pytorch
 **/*.avi
 **/*.html
 **/*.gif
+**/temp*.*
+**/cheezit*
 NeRF-interaction-images
 kaolin-wisp/_results
 kaolin-wisp/_results_new
