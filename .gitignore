@@ -49,6 +49,9 @@ inerf
 anygrasp/anygrasp_sdk/*
 !anygrasp/anygrasp_sdk/grasp_detection
 anygrasp/anygrasp_sdk/grasp_detection/*
+kaolin-wisp/notebooks/*
+!kaolin-wisp/notebooks/inerf_multi_img_new.py
+!kaolin-wisp/notebooks/next_best_pose_range_new_flip_aksh.py
 
 
 CustomComposer/workdir
