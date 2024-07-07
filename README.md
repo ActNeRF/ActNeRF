@@ -1,3 +1,1 @@
-### Hi there 👋
-
-Code to be released soon
+##The installation information and README  will be updated soon

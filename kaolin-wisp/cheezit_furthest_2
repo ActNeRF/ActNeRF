@@ -1,0 +1,10 @@
+['val', 'transforms_test.json', 'transforms_val.json']
+<class 'wisp.datasets.formats.rtmv_dataset.RTMVDataset'>
+False
+<class 'wisp.datasets.formats.nerf_standard_dataset.NeRFSyntheticDataset'>
+False
+['val', 'transforms_test.json', 'transforms_val.json']
+<class 'wisp.datasets.formats.rtmv_dataset.RTMVDataset'>
+False
+<class 'wisp.datasets.formats.nerf_standard_dataset.NeRFSyntheticDataset'>
+False

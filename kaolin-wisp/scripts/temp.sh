@@ -1,0 +1,9 @@
+for i in {0..30}
+do
+    ./scripts/test_ensemble.sh workdir/cheezit_5_2_val4_perfectinerf2/rob0_cheezit_single_side_env_nobg_sam_iteration_$i workdir/cheezit_5_2_val4_perfectinerf2/rob0_cheezit_single_side_env_nobg_sam_iteration_$i rob0_cheezit_sides_corners_env_for_robot_with_gravity_val4_with_depth_nobg_sam_copy 0
+done
+
+for i in {0..30}
+do
+    ./scripts/test_ensemble.sh workdir/cheezit_5_2_val4_perfectinerf2_noflip/rob0_cheezit_single_side_env_nobg_sam_iteration_$i workdir/cheezit_5_2_val4_perfectinerf2_noflip/rob0_cheezit_single_side_env_nobg_sam_iteration_$i rob0_cheezit_sides_corners_env_for_robot_with_gravity_val4_with_depth_nobg_sam_copy 0
+done

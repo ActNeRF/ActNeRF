@@ -1,0 +1,179 @@
+
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_noflip.py  -r small_mug_5_2_val4_noflip_1 -o small_mug -i 21 30 -n 5 2 -g 0 -m 0.5 -mi 20 >> small_mug_5_2_val4_noflip_1 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_noflip.py  -r small_mug_5_2_val4_noflip_2 -o small_mug -i 21 30 -n 5 2 -g 0 -m 0.5 -mi 20 >> small_mug_5_2_val4_noflip_2 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_noflip.py  -r small_mug_5_2_val4_noflip_3 -o small_mug -i 21 30 -n 5 2 -g 0 -m 0.5 -mi 20 >> small_mug_5_2_val4_noflip_3 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_inerf_multi_img_inerf.py  -r small_mug_5_2_val4_1 -o small_mug -i 21 30 -n 5 2 -g 0 -m 0.5 -mi 20 >> small_mug_5_2_val4_1 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_inerf_multi_img_inerf.py  -r small_mug_5_2_val4_2 -o small_mug -i 21 30 -n 5 2 -g 0 -m 0.5 -mi 20 >> small_mug_5_2_val4_2 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_inerf_multi_img_inerf.py  -r small_mug_5_2_val4_3 -o small_mug -i 21 30 -n 5 2 -g 0 -m 0.5 -mi 20 >> small_mug_5_2_val4_3 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_singleflip_inerf_random.py  -r small_mug_5_2_val4_random_singleflip_1 -o small_mug -mfu -i 0 30 -n 5 2 -g 1 -m 0.5 -mi 20 >> small_mug_5_2_val4_random_singleflip_1 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_singleflip_inerf_random.py  -r small_mug_5_2_val4_random_singleflip_2 -o small_mug -mfu -i 0 30 -n 5 2 -g 1 -m 0.5 -mi 20 >> small_mug_5_2_val4_random_singleflip_2 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_singleflip_inerf_random.py  -r small_mug_5_2_val4_random_singleflip_3 -o small_mug -mfu -i 0 30 -n 5 2 -g 1 -m 0.5 -mi 20 >> small_mug_5_2_val4_random_singleflip_3 2>&1
+
+
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_inerf_multi_img_inerf.py  -r spam_5_2_val4_3 -o spam -i 6 30 -n 5 2 -g 0 -m 0.5 -mi 20 -st 100 >> spam_5_2_val4_3 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_inerf_multi_img_inerf.py  -r spam_5_2_val4_2 -o spam -i 0 30 -n 5 2 -g 0 -m 0.5 -mi 20 -st 100 >> spam_5_2_val4_2 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_inerf_multi_img_inerf.py  -r spam_5_2_val4_1 -o spam -i 0 30 -n 5 2 -g 0 -m 0.5 -mi 20 -st 100 >> spam_5_2_val4_1 2>&1
+
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_inerf_multi_img_inerf.py  -r basket_5_2_val4_3 -o basket -mfu -i 1 30 -n 5 2 -g 1 -m 0.5 -mi 20 -st 100 >> basket_5_2_val4_3 2>&1
+
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_singleflip_inerf_random.py  -r basket_5_2_val4_random_singleflip_1 -o basket -mfu -i 0 30 -n 5 2 -g 0 -m 0.5 -mi 20 -st 100 >> basket_5_2_val4_random_singleflip_1 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_singleflip_inerf_random.py  -r basket_5_2_val4_random_singleflip_2 -o basket -mfu -i 0 30 -n 5 2 -g 0 -m 0.5 -mi 20 -st 100 >> basket_5_2_val4_random_singleflip_2 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_singleflip_inerf_random.py  -r basket_5_2_val4_random_singleflip_3 -o basket -mfu -i 0 30 -n 5 2 -g 0 -m 0.5 -mi 20 -st 100 >> basket_5_2_val4_random_singleflip_3 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_singleflip_inerf_random.py  -r basket_5_2_val4_random_singleflip_4 -o basket -mfu -i 13 30 -n 5 2 -g 0 -m 0.5 -mi 20 -st 100 >> basket_5_2_val4_random_singleflip_4 2>&1
+
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_singleflip_inerf_random.py  -r spam_5_2_val4_random_singleflip_1 -o spam -i 9 30 -n 5 2 -g 1 -m 0.5 -mi 20 -st 100 >> spam_5_2_val4_random_singleflip_1 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_singleflip_inerf_random.py  -r spam_5_2_val4_random_singleflip_3 -o spam -i 8 30 -n 5 2 -g 1 -m 0.5 -mi 20 -st 100 >> spam_5_2_val4_random_singleflip_3 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_singleflip_inerf_random.py  -r spam_5_2_val4_random_singleflip_2 -o spam -i 11 30 -n 5 2 -g 1 -m 0.5 -mi 20 -st 100 >> spam_5_2_val4_random_singleflip_2 2>&1
+
+
+furthest noflips and flips
+
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_singleflip_inerf_furthest.py  -r small_mug_5_2_val4_furthest_singleflip_1 -o small_mug -i 10 30 -n 5 2 -g 0 -m 0.5 -mi 20 -mfu >> small_mug_5_2_val4_furthest_singleflip_1 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_noflip_random.py  -r rubik_5_2_val4_random_noflip_1 -o rubik -i 0 30 -n 5 2 -g 0 -m 0.5 -mi 20 >> rubik_5_2_val4_random_noflip_1 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_noflip_random.py  -r rubik_5_2_val4_random_noflip_3 -o rubik -i 0 30 -n 5 2 -g 0 -m 0.5 -mi 20 >> rubik_5_2_val4_random_noflip_3 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_noflip_random.py  -r rubik_5_2_val4_random_noflip_2 -o rubik -i 0 30 -n 5 2 -g 0 -m 0.5 -mi 20 >> rubik_5_2_val4_random_noflip_2 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_noflip.py  -r rubik_5_2_val4_noflip_1 -o rubik -i 0 30 -n 5 2 -g 1 -m 0.5 -mi 20 >> rubik_5_2_val4_noflip_1 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_noflip.py  -r rubik_5_2_val4_noflip_2 -o rubik -i 0 30 -n 5 2 -g 1 -m 0.5 -mi 20 >> rubik_5_2_val4_noflip_2 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_noflip.py  -r rubik_5_2_val4_noflip_3 -o rubik -i 0 30 -n 5 2 -g 1 -m 0.5 -mi 20 >> rubik_5_2_val4_noflip_3 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_inerf_multi_img_inerf.py  -r rubik_5_2_val4_1 -o rubik -i 4 30 -n 5 2 -g 1 -m 0.5 -mi 20 -st 100 >> rubik_5_2_val4_1 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_inerf_multi_img_inerf.py  -r rubik_5_2_val4_2 -o rubik -i 0 30 -n 5 2 -g 0 -m 0.5 -mi 20 -st 100 >> rubik_5_2_val4_2 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_inerf_multi_img_inerf.py  -r rubik_5_2_val4_3 -o rubik -i 0 30 -n 5 2 -g 0 -m 0.5 -mi 20 -st 100 >> rubik_5_2_val4_3 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_singleflip_inerf_random.py  -r rubik_5_2_val4_random_singleflip_1 -o rubik -i 0 30 -n 5 2 -g 0 -m 0.5 -mi 20 -st 100 >> rubik_5_2_val4_random_singleflip_1 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_singleflip_inerf_random.py  -r rubik_5_2_val4_random_singleflip_2 -o rubik -i 0 30 -n 5 2 -g 0 -m 0.5 -mi 20 -st 100 >> rubik_5_2_val4_random_singleflip_2 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_singleflip_inerf_random.py  -r rubik_5_2_val4_random_singleflip_3 -o rubik -i 16 30 -n 5 2 -g 0 -m 0.5 -mi 20 -st 100 >> rubik_5_2_val4_random_singleflip_3 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_singleflip_inerf_furthest.py  -r rubik_5_2_val4_furthest_singleflip_1 -o rubik -i 4 30 -n 5 2 -g 1 -m 0.5 -mi 20 -st 100 >> rubik_5_2_val4_furthest_singleflip_1 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_noflip_furthest.py  -r rubik_5_2_val4_furthest_noflip_1 -o rubik -i 0 30 -n 5 2 -g 1 -m 0.5 -mi 20 >> rubik_5_2_val4_furthest_noflip_1 2>&1
+
+
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_alwaysflip_if_possible.py  -r rubik_5_2_val4_noflip_1 -o rubik -i 31 31 -n 5 2 -g 0 -m 0.5 -mi 21 >> rubik_5_2_val4_noflip_1_flip_21 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_alwaysflip_if_possible.py  -r rubik_5_2_val4_noflip_2 -o rubik -i 24 24 -n 5 2 -g 0 -m 0.5 -mi 21 >> rubik_5_2_val4_noflip_2_flip_21 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_noflip.py  -r rubik_5_2_val4_noflip_1 -o rubik -i 32 50 -n 5 2 -g 0 -m 0.5 -mi 30 >> rubik_5_2_val4_noflip_1_flip_21 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_noflip.py  -r rubik_5_2_val4_noflip_2 -o rubik -i 25 50 -n 5 2 -g 0 -m 0.5 -mi 30 >> rubik_5_2_val4_noflip_2_flip_21 2>&1
+
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_alwaysflip_if_possible.py  -r small_mug_5_2_val4_noflip_1 -o small_mug -i 23 23 -n 5 2 -g 1 -m 0.5 -mi 21 -mfu >> small_mug_5_2_val4_noflip_1_flip_21 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_alwaysflip_if_possible.py  -r small_mug_5_2_val4_noflip_2 -o small_mug -i 22 22 -n 5 2 -g 1 -m 0.5 -mi 21 -mfu >> small_mug_5_2_val4_noflip_2_flip_21 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_alwaysflip_if_possible.py  -r small_mug_5_2_val4_noflip_3 -o small_mug -i 22 22 -n 5 2 -g 1 -m 0.5 -mi 21 -mfu >> small_mug_5_2_val4_noflip_3_flip_21 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_noflip.py  -r small_mug_5_2_val4_noflip_1 -o small_mug -i 24 40 -n 5 2 -g 1 -m 0.5 -mi 30 >> small_mug_5_2_val4_noflip_1_flip_21 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_noflip.py  -r small_mug_5_2_val4_noflip_2 -o small_mug -i 23 40 -n 5 2 -g 1 -m 0.5 -mi 30 >> small_mug_5_2_val4_noflip_2_flip_21 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_noflip.py  -r small_mug_5_2_val4_noflip_3 -o small_mug -i 23 40 -n 5 2 -g 1 -m 0.5 -mi 30 >> small_mug_5_2_val4_noflip_3_flip_21 2>&1
+
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_alwaysflip_if_possible.py  -r spam_5_2_val4_noflip_1 -o spam -i 25 25 -n 5 2 -g 1 -m 0.5 -mi 21  >> spam_5_2_val4_noflip_1_flip_21 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_noflip.py  -r spam_5_2_val4_noflip_1 -o spam -i 26 50 -n 5 2 -g 1 -m 0.5 -mi 30 >> spam_5_2_val4_noflip_1_flip_21 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_alwaysflip_if_possible.py  -r spam_5_2_val4_noflip_2 -o spam -i 25 25 -n 5 2 -g 1 -m 0.5 -mi 21 -st 20 >> spam_5_2_val4_noflip_2_flip_21 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_noflip.py  -r spam_5_2_val4_noflip_2 -o spam -i 26 50 -n 5 2 -g 1 -m 0.5 -mi 30 >> spam_5_2_val4_noflip_2_flip_21 2>&1
+
+
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_alwaysflip_if_possible.py  -r basket_5_2_val4_noflip_2 -o basket -i 24 24 -n 5 2 -g 1 -m 0.5 -mi 21 -mfu >> basket_5_2_val4_noflip_2_flip_21 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_alwaysflip_if_possible.py  -r basket_5_2_val4_noflip_1 -o basket -i 28 28 -n 5 2 -g 1 -m 0.5 -mi 21 -mfu >> basket_5_2_val4_noflip_1_flip_21 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_noflip.py  -r basket_5_2_val4_noflip_1 -o basket -i 29 50 -n 5 2 -g 1 -m 0.5 -mi 30 >> basket_5_2_val4_noflip_1_flip_21 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_alwaysflip_if_possible.py  -r basket_5_2_val4_noflip_3 -o basket -i 23 23 -n 5 2 -g 0 -m 0.5 -mi 21 -mfu >> basket_5_2_val4_noflip_3_flip_21 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_noflip.py  -r basket_5_2_val4_noflip_3 -o basket -i 24 50 -n 5 2 -g 0 -m 0.5 -mi 30 >> basket_5_2_val4_noflip_3_flip_21 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_noflip.py  -r basket_5_2_val4_noflip_2 -o basket -i 32 50 -n 5 2 -g 1 -m 0.5 -mi 30 >> basket_5_2_val4_noflip_2_flip_21 2>&1
+
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_noflip.py  -r rubik_5_2_val4_noflip_3 -o rubik -i 26 50 -n 5 2 -g 1 -m 0.5 -mi 30 >> rubik_5_2_val4_noflip_3_flip_21 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_noflip.py  -r spam_5_2_val4_noflip_3 -o spam -i 29 50 -n 5 2 -g 1 -m 0.5 -mi 30 >> spam_5_2_val4_noflip_3_flip_21 2>&1
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_alwaysflip_if_possible.py  -r rubik_5_2_val4_noflip_3 -o rubik -i 25 25 -n 5 2 -g 1 -m 0.5 -mi 21 -st 0 -mfu >> rubik_5_2_val4_noflip_3_flip_21 2>&1
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_alwaysflip_if_possible.py  -r spam_5_2_val4_noflip_3 -o spam -i 28 28 -n 5 2 -g 1 -m 0.5 -mi 21 -st 0 -mfu >> spam_5_2_val4_noflip_3_flip_21 2>&1
+
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_an_noflip.py  -r cheezit_5_2_val4_an_noflip_1 -o cheezit -i 1 30 -n 5 2 -g 0 -m 0.5 -mi 20 >> cheezit_5_2_val4_an_noflip_1 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_an_noflip.py  -r cheezit_5_2_val4_an_noflip_2 -o cheezit -i 0 30 -n 5 2 -g 0 -m 0.5 -mi 20 >> cheezit_5_2_val4_an_noflip_2 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_an_noflip.py  -r cheezit_5_2_val4_an_noflip_3 -o cheezit -i 0 30 -n 5 2 -g 0 -m 0.5 -mi 20 >> cheezit_5_2_val4_an_noflip_3 2>&1
+
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_an_noflip.py  -r small_mug_5_2_val4_an_noflip_3 -o small_mug -i 0 30 -n 5 2 -g 0 -m 0.5 -mi 20 >> small_mug_5_2_val4_an_noflip_3 2>&1
+
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_an_noflip.py  -r spam_5_2_val4_an_noflip_1 -o spam -i 0 30 -n 5 2 -g 0 -m 0.5 -mi 20 >> spam_5_2_val4_an_noflip_1 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_an_noflip.py  -r spam_5_2_val4_an_noflip_3 -o spam -i 0 30 -n 5 2 -g 0 -m 0.5 -mi 20 >> spam_5_2_val4_an_noflip_3 2>&1
+
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_noflip_nosam.py  -r small_mug_5_2_val4_noflip_nosam_1 -o small_mug -i 0 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> small_mug_5_2_val4_noflip_nosam_1 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_noflip_nosam.py  -r cheezit_5_2_val4_noflip_nosam_1 -o cheezit -i 0 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> cheezit_5_2_val4_noflip_nosam_1 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_noflip_nosam.py  -r rubik_5_2_val4_noflip_nosam_1 -o rubik -i 0 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> rubik_5_2_val4_noflip_nosam_1 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_noflip_nosam.py  -r spam_5_2_val4_noflip_nosam_1 -o spam -i 0 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> spam_5_2_val4_noflip_nosam_1 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_noflip_nosam.py  -r basket_5_2_val4_noflip_nosam_1 -o basket -i 0 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> basket_5_2_val4_noflip_nosam_1 2>&1
+
+
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_noflip_furthest.py  -r rubik_5_2_val4_furthest_noflip_2 -o rubik -i 27 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> rubik_5_2_val4_furthest_noflip_2 2>&1
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_noflip_furthest.py  -r rubik_5_2_val4_furthest_noflip_3 -o rubik -i 0 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> rubik_5_2_val4_furthest_noflip_3 2>&1
+
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_noflip_furthest.py  -r basket_5_2_val4_furthest_noflip_2 -o basket -i 0 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> basket_5_2_val4_furthest_noflip_2 2>&1
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_noflip_furthest.py  -r basket_5_2_val4_furthest_noflip_3 -o basket -i 5 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> basket_5_2_val4_furthest_noflip_3 2>&1
+
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_noflip_furthest.py  -r cheezit_5_2_val4_furthest_noflip_2 -o cheezit -i 0 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> cheezit_5_2_val4_furthest_noflip_2 2>&1
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_noflip_furthest.py  -r cheezit_5_2_val4_furthest_noflip_3 -o cheezit -i 0 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> cheezit_5_2_val4_furthest_noflip_3 2>&1
+
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_noflip_furthest.py  -r small_mug_5_2_val4_furthest_noflip_2 -o small_mug -i 0 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> small_mug_5_2_val4_furthest_noflip_2 2>&1
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_noflip_furthest.py  -r small_mug_5_2_val4_furthest_noflip_3 -o small_mug -i 0 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> small_mug_5_2_val4_furthest_noflip_3 2>&1
+
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_noflip_furthest.py  -r spam_5_2_val4_furthest_noflip_2 -o spam -i 0 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> spam_5_2_val4_furthest_noflip_2 2>&1
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_noflip_furthest.py  -r spam_5_2_val4_furthest_noflip_3 -o spam -i 0 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> spam_5_2_val4_furthest_noflip_3 2>&1
+
+ablation
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_lee_chen_noflip.py  -r cheezit_5_2_val4_lee_chen_noflip_1 -o cheezit -i 0 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> cheezit_5_2_val4_lee_chen_noflip_1 2>&1
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_lee_chen_noflip.py  -r cheezit_5_2_val4_lee_chen_noflip_2 -o cheezit -i 0 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> cheezit_5_2_val4_lee_chen_noflip_2 2>&1
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_lee_chen_noflip.py  -r cheezit_5_2_val4_lee_chen_noflip_3 -o cheezit -i 0 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> cheezit_5_2_val4_lee_chen_noflip_3 2>&1
+
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_lee_chen_noflip.py  -r rubik_5_2_val4_lee_chen_noflip_1 -o rubik -i 0 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> rubik_5_2_val4_lee_chen_noflip_1 2>&1
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_lee_chen_noflip.py  -r rubik_5_2_val4_lee_chen_noflip_2 -o rubik -i 0 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> rubik_5_2_val4_lee_chen_noflip_2 2>&1
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_lee_chen_noflip.py  -r rubik_5_2_val4_lee_chen_noflip_3 -o rubik -i 0 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> rubik_5_2_val4_lee_chen_noflip_3 2>&1
+
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_lee_chen_noflip.py  -r basket_5_2_val4_lee_chen_noflip_1 -o basket -i 0 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> basket_5_2_val4_lee_chen_noflip_1 2>&1
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_lee_chen_noflip.py  -r basket_5_2_val4_lee_chen_noflip_2 -o basket -i 0 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> basket_5_2_val4_lee_chen_noflip_2 2>&1
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_lee_chen_noflip.py  -r basket_5_2_val4_lee_chen_noflip_3 -o basket -i 0 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> basket_5_2_val4_lee_chen_noflip_3 2>&1
+
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_lee_chen_noflip.py  -r small_mug_5_2_val4_lee_chen_noflip_1 -o small_mug -i 0 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> small_mug_5_2_val4_lee_chen_noflip_1 2>&1
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_lee_chen_noflip.py  -r small_mug_5_2_val4_lee_chen_noflip_2 -o small_mug -i 0 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> small_mug_5_2_val4_lee_chen_noflip_2 2>&1
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_lee_chen_noflip.py  -r small_mug_5_2_val4_lee_chen_noflip_3 -o small_mug -i 0 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> small_mug_5_2_val4_lee_chen_noflip_3 2>&1
+
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_lee_chen_noflip.py  -r spam_5_2_val4_lee_chen_noflip_1 -o spam -i 0 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> spam_5_2_val4_lee_chen_noflip_1 2>&1
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_lee_chen_noflip.py  -r spam_5_2_val4_lee_chen_noflip_2 -o spam -i 0 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> spam_5_2_val4_lee_chen_noflip_2 2>&1
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_lee_chen_noflip.py  -r spam_5_2_val4_lee_chen_noflip_3 -o spam -i 0 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> spam_5_2_val4_lee_chen_noflip_3 2>&1
+
+
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_singleflip_inerf_an.py  -r cheezit_5_2_val4_an_singleflip_nosam_1 -o cheezit -i 16 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> cheezit_5_2_val4_an_singleflip_nosam_1 2>&1
+
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_singleflip_inerf_an.py  -r rubik_5_2_val4_an_singleflip_nosam_1 -o rubik -i 0 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> rubik_5_2_val4_an_singleflip_nosam_1 2>&1
+
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_singleflip_inerf_an.py  -r basket_5_2_val4_an_singleflip_nosam_1 -o basket -i 21 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> basket_5_2_val4_an_singleflip_nosam_1 2>&1
+
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_singleflip_inerf_an.py  -r small_mug_5_2_val4_an_singleflip_nosam_1 -o small_mug -i 0 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> small_mug_5_2_val4_an_singleflip_nosam_1 2>&1
+
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_singleflip_inerf_an.py  -r spam_5_2_val4_an_singleflip_nosam_1 -o spam -i 0 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> spam_5_2_val4_an_singleflip_nosam_1 2>&1
+
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_density_noflip.py  -r cheezit_5_2_val4_density_noflip_1 -o cheezit -i 0 40 -n 5 2 -g 0 -m 0.5 -mi 20 >> cheezit_5_2_val4_density_noflip_1 2>&1
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_density_noflip.py  -r cheezit_5_2_val4_density_noflip_2 -o cheezit -i 0 40 -n 5 2 -g 0 -m 0.5 -mi 20 >> cheezit_5_2_val4_density_noflip_2 2>&1
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_density_noflip.py  -r cheezit_5_2_val4_density_noflip_3 -o cheezit -i 0 40 -n 5 2 -g 0 -m 0.5 -mi 20 >> cheezit_5_2_val4_density_noflip_3 2>&1
+
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_density_noflip.py  -r rubik_5_2_val4_density_noflip_1 -o rubik -i 0 40 -n 5 2 -g 0 -m 0.5 -mi 20 >> rubik_5_2_val4_density_noflip_1 2>&1
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_density_noflip.py  -r rubik_5_2_val4_density_noflip_2 -o rubik -i 0 40 -n 5 2 -g 0 -m 0.5 -mi 20 >> rubik_5_2_val4_density_noflip_2 2>&1
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_density_noflip.py  -r rubik_5_2_val4_density_noflip_3 -o rubik -i 0 40 -n 5 2 -g 0 -m 0.5 -mi 20 >> rubik_5_2_val4_density_noflip_3 2>&1
+
+# # PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_density_noflip.py  -r basket_5_2_val4_density_noflip_1 -o basket -i 0 40 -n 5 2 -g 0 -m 0.5 -mi 20 >> basket_5_2_val4_density_noflip_1 2>&1
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_density_noflip.py  -r basket_5_2_val4_density_noflip_2 -o basket -i 19 40 -n 5 2 -g 0 -m 0.5 -mi 20 >> basket_5_2_val4_density_noflip_2 2>&1
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_density_noflip.py  -r basket_5_2_val4_density_noflip_3 -o basket -i 0 40 -n 5 2 -g 0 -m 0.5 -mi 20 >> basket_5_2_val4_density_noflip_3 2>&1
+
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_density_noflip.py  -r small_mug_5_2_val4_density_noflip_1 -o small_mug -i 0 40 -n 5 2 -g 0 -m 0.5 -mi 20 >> small_mug_5_2_val4_density_noflip_1 2>&1
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_density_noflip.py  -r small_mug_5_2_val4_density_noflip_2 -o small_mug -i 0 40 -n 5 2 -g 0 -m 0.5 -mi 20 >> small_mug_5_2_val4_density_noflip_2 2>&1
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_density_noflip.py  -r small_mug_5_2_val4_density_noflip_3 -o small_mug -i 0 40 -n 5 2 -g 0 -m 0.5 -mi 20 >> small_mug_5_2_val4_density_noflip_3 2>&1
+
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_density_noflip.py  -r spam_5_2_val4_density_noflip_1 -o spam -i 0 40 -n 5 2 -g 0 -m 0.5 -mi 20 >> spam_5_2_val4_density_noflip_1 2>&1
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_density_noflip.py  -r spam_5_2_val4_density_noflip_2 -o spam -i 0 40 -n 5 2 -g 0 -m 0.5 -mi 20 >> spam_5_2_val4_density_noflip_2 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_sapt_density_noflip.py  -r spam_5_2_val4_density_noflip_3 -o spam -i 29 40 -n 5 2 -g 0 -m 0.5 -mi 20 >> spam_5_2_val4_density_noflip_3 2>&1
+
+
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_dan_noflip.py  -r small_mug_5_2_val4_dan_noflip_1 -o small_mug -i 1 40 -n 5 2 -g 0 -m 0.5 -mi 20 >> small_mug_5_2_val4_dan_noflip_1 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_dan_noflip.py  -r small_mug_5_2_val4_dan_noflip_2 -o small_mug -i 0 40 -n 5 2 -g 0 -m 0.5 -mi 20 >> small_mug_5_2_val4_dan_noflip_2 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_dan_noflip.py  -r small_mug_5_2_val4_dan_noflip_3 -o small_mug -i 0 40 -n 5 2 -g 0 -m 0.5 -mi 20 >> small_mug_5_2_val4_dan_noflip_3 2>&1
+
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_dan_noflip.py  -r spam_5_2_val4_dan_noflip_1 -o spam -i 0 40 -n 5 2 -g 0 -m 0.5 -mi 20 >> spam_5_2_val4_dan_noflip_1 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_dan_noflip.py  -r spam_5_2_val4_dan_noflip_2 -o spam -i 0 40 -n 5 2 -g 0 -m 0.5 -mi 20 >> spam_5_2_val4_dan_noflip_2 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_dan_noflip.py  -r spam_5_2_val4_dan_noflip_3 -o spam -i 0 40 -n 5 2 -g 0 -m 0.5 -mi 20 >> spam_5_2_val4_dan_noflip_3 2>&1
+
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_dan_noflip.py  -r cheezit_5_2_val4_dan_noflip_1 -o cheezit -i 0 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> cheezit_5_2_val4_dan_noflip_1 2>&1
+# PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_dan_noflip.py  -r cheezit_5_2_val4_dan_noflip_2 -o cheezit -i 0 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> cheezit_5_2_val4_dan_noflip_2 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_dan_noflip.py  -r cheezit_5_2_val4_dan_noflip_3 -o cheezit -i 1 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> cheezit_5_2_val4_dan_noflip_3 2>&1
+
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_dan_noflip.py  -r rubik_5_2_val4_dan_noflip_1 -o rubik -i 0 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> rubik_5_2_val4_dan_noflip_1 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_dan_noflip.py  -r rubik_5_2_val4_dan_noflip_2 -o rubik -i 0 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> rubik_5_2_val4_dan_noflip_2 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_dan_noflip.py  -r rubik_5_2_val4_dan_noflip_3 -o rubik -i 0 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> rubik_5_2_val4_dan_noflip_3 2>&1
+
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_dan_noflip.py  -r basket_5_2_val4_dan_noflip_1 -o basket -i 0 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> basket_5_2_val4_dan_noflip_1 2>&1
+PYTHONUNBUFFERED=1 python src/wrapper_script_with_robot_dan_noflip.py  -r basket_5_2_val4_dan_noflip_2 -o basket -i 0 40 -n 5 2 -g 1 -m 0.5 -mi 20 >> basket_5_2_val4_dan_noflip_2 2>&1
