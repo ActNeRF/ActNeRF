@@ -1,0 +1,1 @@
+python demo.py --checkpoint_path log/checkpoint_detection.tar --data-dir cheezit5

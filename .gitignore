@@ -43,7 +43,10 @@ ActiveNeRF
 2023-col864
 */.git
 git
-anygrasp
+anygrasp/anygrasp_sdk/*
+!anygrasp/anygrasp_sdk/grasp_detection
+anygrasp/anygrasp_sdk/grasp_detection/*
+
 
 CustomComposer/workdir
 CustomComposer/workdir2
@@ -66,7 +69,7 @@ CustomComposer/robot*
 CustomComposer/small*
 CustomComposer/mustard*
 CustomComposer/gelatin*
-CustomComposer/src
+CustomComposer/src/*
 
 !anygrasp/anygrasp_sdk/grasp_detection/demo_new.py
 !anygrasp/anygrasp_sdk/grasp_detection/demo.sh
